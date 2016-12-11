@@ -1,6 +1,9 @@
 Day 1: No Time for a Taxicab
 ============================
 
+Part One
+--------
+
 Santa's sleigh uses a very high-precision clock to guide its movements, and the clock's oscillator is regulated by stars. Unfortunately, the stars have been stolen... by the Easter Bunny. To save Christmas, Santa needs you to retrieve all fifty stars by December 25th.
 
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
@@ -18,3 +21,12 @@ For example:
 - R5, L5, R5, R3 leaves you 12 blocks away.
 
 How many blocks away is Easter Bunny HQ?
+
+Part Two
+--------
+
+Then, you notice the instructions continue on the back of the Recruiting Document. Easter Bunny HQ is actually at the first location you visit twice.
+
+For example, if your instructions are R8, R4, R4, R8, the first location you visit twice is 4 blocks away, due East.
+
+How many blocks away is the first location you visit twice?
