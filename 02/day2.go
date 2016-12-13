@@ -9,17 +9,17 @@ type Position struct {
 	x, y int
 }
 
-var keypad = [][]int {
+var keypad = [][]int{
 	{1, 2, 3},
 	{4, 5, 6},
 	{7, 8, 9},
 }
 
-var d = map[byte]Position {
-	'U': Position{ 0, -1},
-	'D': Position{ 0,  1},
-	'L': Position{-1,  0},
-	'R': Position{ 1,  0},
+var d = map[byte]Position{
+	'U': Position{0, -1},
+	'D': Position{0, 1},
+	'L': Position{-1, 0},
+	'R': Position{1, 0},
 }
 
 func Move(p Position, b byte) Position {
@@ -37,10 +37,10 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	
+
 	for _, c := range dat {
 		if c == '\n' {
-			fmt.Printf("%d", GetValue(curr));
+			fmt.Printf("%d", GetValue(curr))
 		} else {
 			curr = Move(curr, c)
 		}
